@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Main container */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f9;
+    }
+
+    /* Product Card */
+    .product-card {
+      width: 350px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    /* Product Image */
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    /* Product Details */
+    .product-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-info h2 {
+      font-size: 1.5em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .product-info p {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    /* Product Price */
+    .product-price {
+      font-size: 1.3em;
+      color: #1abc9c;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Buttons */
+    .btn-container {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 0.9em;
+    }
+
+    .btn-cart {
+      background-color: #1abc9c;
+    }
+
+    .btn-buy {
+      background-color: #3498db;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Product Card -->
+  <div class="product-card">
+    <img src=**image** alt="Product Image">
+    <div class="product-info">
+      <h2>**Title**</h2>
+      <p>This is a great product that meets all your needs. Perfect for daily use, easy to handle, and available at an affordable price!</p>
+      <div class="product-price">₹499</div>
+      <div class="btn-container">
+        <button class="btn btn-cart">Add to Cart</button>
+        <button class="btn btn-buy">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
