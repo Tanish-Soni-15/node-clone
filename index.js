@@ -21,7 +21,7 @@ console.log(process.env.DB_PASSWORD);
 server.use(express.json())
 console.log(process.env.PUBLIC_DIR)
 server.use(express.static(process.env.PUBLIC_DIR))
-server.use('/products/',Productsrouter);
+server.use('/api/products/',Productsrouter);
 server.use('*',(req,res)=>{
   res.sendFile('C:\\Users\\lenovo\\Desktop\\Nodejs revision\\dist\\index.html')
 })
